@@ -1,0 +1,40 @@
+.about-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left{
+   font-size: 24px;
+}
+
+.myName{
+    color: blue;
+    font-size: 32px;
+}
+/* .about-right{
+
+} */
+
+
+@media (max-width:720px){
+
+    .about-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-left{
+        font-size: 20px;
+    }
+    .myName{
+        font-size: 26px;
+    }
+}
+
+.about-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

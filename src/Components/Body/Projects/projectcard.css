@@ -1,0 +1,25 @@
+.projectcard{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.project-tags{
+        display: flex;
+        width: 60%;
+}
+
+.tag{
+    background-color: aquamarine;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-right: 5px;
+
+}

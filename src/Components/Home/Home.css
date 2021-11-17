@@ -1,0 +1,27 @@
+html{
+    scroll-behavior :smooth;
+}
+
+.Home{
+    color:indigo;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+@media  (max-width:1024px){
+    .Home{
+        width: 90%;
+        background-color:lightblue;
+    } 
+}
+
+@media (max-width: 512px){
+    .Home{
+        width: 100%;
+        background-color: red;
+    }
+
+}
